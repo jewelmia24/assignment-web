@@ -1,0 +1,135 @@
+.navbar{
+   max-width: 1200px;
+   margin-inline: auto;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+.resumebtn{
+    background-color: white;
+    border-radius: 5px;
+    border: grey 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.banner{
+    background-image: url(./assets/Hero-bg.png);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bannerItem{
+    max-width: 800px;
+    margin-inline: auto;
+    text-align: center;
+    
+}
+.bannerImg{
+    display: flex;
+    justify-content: center;
+}
+.bannerBtn{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: 40px;
+}
+main{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 60px;
+}
+.developmentConatainer{
+    background-color: rgb(250, 248, 248);
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.commonHeading{
+    text-align: center;
+    max-width: 800px;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+.developmentContent{
+    max-width: 900px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+}
+.developmentContent>div>h2{
+    font-size: 30px;
+}
+.commonbtn{
+    padding: 10px;
+}
+.targetBoxContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.targetBox{
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+}
+.box1{
+    background-color: rgb(253, 241, 241);
+}
+.box2{
+    background-color: rgb(211, 230, 248);
+}
+.box3{
+    background-color: rgb(248, 232, 209);
+}
+
+/* support containeer */
+.supportContaineer{
+    background-image: url(./assets/handshake.jpg);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.supportContaineer>div{
+    max-width: 800px;
+    margin-inline: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.supportContaineer>div>h2{
+    font-size: 40px;
+}
+.input{
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.submit{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20x;
+    border: none;
+}
+footer{
+    background-color: rgb(247, 242, 242);
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+   padding: 60px 10px 60px 10px;
+    border-radius: 10px;
+}
